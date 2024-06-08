@@ -27,14 +27,14 @@ a {
 .image-grid {
     
     column-gap: 1px;
-    columns: 3 100px;
+    columns: 3 200px;
     gap: 1px;
     
 }
 .image-grid>img {
 
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 2px solid;
     border-radius: 13px;
     box-shadow: 4px 7px 7px 0px black;
