@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1> חנות החיות המגניבה בישראל!</h1>
+        <hr>
+        <a href="index.html">דף הבית</a>
+        <a href="animal.html">חיות</a>
+        <a href="contactpage.html">צור קשר</a>
+        <br>
+        
+        <h2 class="header"> צרו קשר:</h2>
+        
+        <div>
+        
+            <form action="save.html" class="save">
+                <label>שם פרטי :</label>
+                <input type="text" name="firstName">
+                <br>
+              
+                <label>שם משפחה:</label>
+                <input type="text" name="lastName"> 
+                <br><br>
+                
+                <label for="מין">מין :</label>
+                <label for="זכר">זכר</label>
+                <input type="radio" id="זכר"  name="gender" value="זכר">
+                <label for="נקבה">נקבה</label>
+                <input type="radio" id="נקבה" name="gender" value="נקבה">
+                <br><br>
+                <label>עיר:</label>
+                <select name="area">
+                     <option value="1">בחר עיר</option>
+                     <option value="2">חיפה</option>
+                    <option value="3">תל אביב</option>
+                    </select>
+                 <br><br>
+
+                 <label>הודעה: </label>
+             <textarea name="message" rows="5" cols="40" required maxlength="1000"></textarea>
+             <br>
+                </select>
+                <button >שלח</button>
+                <button type="reset">נקה</button>
+            </form>
+        </div>
+            
+        
+        <p>"כל הזכויות שמורות" ©</p>
+   
+</body>
+</html>
