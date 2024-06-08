@@ -1,9 +1,10 @@
-html , body {
+html,body {
     background-color: rgb(95, 149, 160) ;
     text-align: center;
     direction: rtl;
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
     
    
 }
@@ -24,22 +25,22 @@ a {
     font-size: large;
 }
 .image-grid {
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    
+    column-gap: 1px;
+    columns: 3 100px;
+    gap: 1px;
+    
 }
-  div>img {
-    column-gap: 16px;
-    width: 100px;
-    height: 100px;
+.image-grid>img {
+
+    width: 200px;
+    height: 200px;
     border: 2px solid;
     border-radius: 13px;
     box-shadow: 4px 7px 7px 0px black;
-    cursor: pointer;
-    margin: 10px;
-    transition: 400ms;
+    
+    margin-bottom: 1px;
+    
 }
 div>img:hover{
     filter: grayscale(1);
